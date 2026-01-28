@@ -1,81 +1,93 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ZENKAI | Cinematic Designer</title>
-    <meta name="description" content="Portfolio of Nguyen Hoang Viet (Zenkai) - Cinematic Designer & 3D Artist." />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Manrope:wght@200;300;400;500;600&display=swap" rel="stylesheet">
-    <script>
-      tailwind.config = {
-        darkMode: 'class',
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ['Manrope', 'sans-serif'],
-              display: ['Syne', 'sans-serif'],
-            },
-            colors: {
-              gold: '#D4AF37',
-              dark: '#050505',
-              softWhite: '#F5F5F7',
-              charcoal: '#121212',
-            },
-            backgroundImage: {
-              'noise': "url('https://www.transparenttextures.com/patterns/stardust.png')",
-            },
-            animation: {
-              'spin-slow': 'spin 12s linear infinite',
-            }
-          },
-        },
-      }
-    </script>
-    <style>
-      /* Custom scrollbar */
-      ::-webkit-scrollbar {
-        width: 4px;
-      }
-      ::-webkit-scrollbar-track {
-        background: transparent;
-      }
-      .dark ::-webkit-scrollbar-track {
-        background: #050505;
-      }
-      ::-webkit-scrollbar-thumb {
-        background: #D4AF37;
-      }
-      body {
-        background-color: #F5F5F7;
-        color: #121212;
-        transition: background-color 0.5s ease, color 0.5s ease;
-        cursor: crosshair;
-      }
-      .dark body {
-        background-color: #050505;
-        color: #E5E5E5;
-      }
-      .outline-text {
-        -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
-        color: transparent;
-      }
-      .dark .outline-text {
-        -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
-        color: transparent;
-      }
-      .outline-text-gold {
-        -webkit-text-stroke: 1px #D4AF37;
-        color: transparent;
-      }
-      .outline-text:hover {
-        color: inherit;
-      }
-    </style>
 
-<link rel="stylesheet" href="/index.css">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZENKAI | Cinematic Designer</title>
+  <meta name="description" content="Portfolio of Nguyen Hoang Viet (Zenkai) - Cinematic Designer & 3D Artist." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Manrope:wght@200;300;400;500;600&display=swap"
+    rel="stylesheet">
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Manrope', 'sans-serif'],
+            display: ['Syne', 'sans-serif'],
+          },
+          colors: {
+            gold: '#D4AF37',
+            dark: '#050505',
+            softWhite: '#F5F5F7',
+            charcoal: '#121212',
+          },
+          backgroundImage: {
+            'noise': "url('https://www.transparenttextures.com/patterns/stardust.png')",
+          },
+          animation: {
+            'spin-slow': 'spin 12s linear infinite',
+          }
+        },
+      },
+    }
+  </script>
+  <style>
+    /* Custom scrollbar */
+    ::-webkit-scrollbar {
+      width: 4px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    .dark ::-webkit-scrollbar-track {
+      background: #050505;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #D4AF37;
+    }
+
+    body {
+      background-color: #F5F5F7;
+      color: #121212;
+      transition: background-color 0.5s ease, color 0.5s ease;
+      cursor: crosshair;
+    }
+
+    .dark body {
+      background-color: #050505;
+      color: #E5E5E5;
+    }
+
+    .outline-text {
+      -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
+      color: transparent;
+    }
+
+    .dark .outline-text {
+      -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
+      color: transparent;
+    }
+
+    .outline-text-gold {
+      -webkit-text-stroke: 1px #D4AF37;
+      color: transparent;
+    }
+
+    .outline-text:hover {
+      color: inherit;
+    }
+  </style>
+
+  <link rel="stylesheet" href="./index.css">
   <script type="importmap">
 {
   "imports": {
@@ -87,9 +99,11 @@
   }
 }
 </script>
-  <script type="module" crossorigin src="/assets/index-BHySvqaj.js"></script>
+  <script type="module" crossorigin src="./assets/index-BHySvqaj.js"></script>
 </head>
-  <body>
-    <div id="root"></div>
+
+<body>
+  <div id="root"></div>
 </body>
+
 </html>
