@@ -1,109 +1,14 @@
-<!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ZENKAI | Cinematic Designer</title>
-  <meta name="description" content="Portfolio of Nguyen Hoang Viet (Zenkai) - Cinematic Designer & 3D Artist." />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Manrope:wght@200;300;400;500;600&display=swap"
-    rel="stylesheet">
-  <script>
-    tailwind.config = {
-      darkMode: 'class',
-      theme: {
-        extend: {
-          fontFamily: {
-            sans: ['Manrope', 'sans-serif'],
-            display: ['Syne', 'sans-serif'],
-          },
-          colors: {
-            gold: '#D4AF37',
-            dark: '#050505',
-            softWhite: '#F5F5F7',
-            charcoal: '#121212',
-          },
-          backgroundImage: {
-            'noise': "url('https://www.transparenttextures.com/patterns/stardust.png')",
-          },
-          animation: {
-            'spin-slow': 'spin 12s linear infinite',
-          }
-        },
-      },
-    }
-  </script>
-  <style>
-    /* Custom scrollbar */
-    ::-webkit-scrollbar {
-      width: 4px;
-    }
-
-    ::-webkit-scrollbar-track {
-      background: transparent;
-    }
-
-    .dark ::-webkit-scrollbar-track {
-      background: #050505;
-    }
-
-    ::-webkit-scrollbar-thumb {
-      background: #D4AF37;
-    }
-
-    body {
-      background-color: #F5F5F7;
-      color: #121212;
-      transition: background-color 0.5s ease, color 0.5s ease;
-      cursor: crosshair;
-    }
-
-    .dark body {
-      background-color: #050505;
-      color: #E5E5E5;
-    }
-
-    .outline-text {
-      -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
-      color: transparent;
-    }
-
-    .dark .outline-text {
-      -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
-      color: transparent;
-    }
-
-    .outline-text-gold {
-      -webkit-text-stroke: 1px #D4AF37;
-      color: transparent;
-    }
-
-    .outline-text:hover {
-      color: inherit;
-    }
-  </style>
-
-  <link rel="stylesheet" href="./index.css">
-  <script type="importmap">
-{
-  "imports": {
-    "react/": "https://esm.sh/react@^19.2.3/",
-    "react": "https://esm.sh/react@^19.2.3",
-    "lucide-react": "https://esm.sh/lucide-react@^0.561.0",
-    "recharts": "https://esm.sh/recharts@^3.6.0",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
-  }
-}
-</script>
-  <script type="module" crossorigin src="./assets/index-BHySvqaj.js"></script>
-</head>
-
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Viet Nguyen — AI Films & Visual Stories</title><meta name="description" content="Viet Nguyen's moving-image portfolio. AI films, cinematic experiments, commercial work, CGI and visual stories."><link rel="stylesheet" href="./portfolio.css?v=5"><script src="./assets/catalog.js" defer></script><script src="./portfolio.js?v=4" defer></script></head>
 <body>
-  <div id="root"></div>
-</body>
+<div class="envelope-intro" id="envelope-intro" aria-hidden="true"><div class="envelope"><div class="envelope-letter">VIET NGUYEN<span>PORTFOLIO</span></div><div class="envelope-pocket"></div><div class="envelope-flap"></div><div class="envelope-seal">VN</div></div><button id="skip-intro" aria-label="Skip opening animation">SKIP INTRO ↗</button></div>
+<a class="skip-link" href="#library">Skip to film library</a><main class="paper">
+<header class="masthead" id="home"><div class="mast-note">INDEPENDENT CREATIVE<br>AI FILMMAKER &<br>VISUAL STORYTELLER</div><a class="wordmark" href="#home">VIET NGUYEN<span>AI FILMS &nbsp; × &nbsp; CGI &nbsp; × &nbsp; A CURIOUS MIND</span></a><nav aria-label="Main navigation"><a href="#library">THE WORK</a><a href="#about">ABOUT</a><a href="#connect">SAY HELLO ↗</a></nav></header>
+<div class="edition"><span>A PORTFOLIO OF EXPERIMENTS & POSSIBILITIES</span></div>
+<section class="opening" aria-label="AI film mosaic"><h1 class="sr-only">Viet Nguyen — AI film portfolio</h1><div class="feature-mosaic" id="featured"></div></section>
 
-</html>
+<section id="about" class="about"><div class="portrait"><img src="assets/viet-nguyen-face.png" alt="Portrait of Viet Nguyen" loading="lazy"><span class="portrait-caption">THE PERSON BEHIND THE PICTURES</span></div><div class="about-copy"><span class="eyebrow red">MEET THE FILMMAKER</span><h2>Viet Nguyen<span class="red-dot">.</span></h2><p class="lead">A curious mind.<br>A thousand possible worlds.</p><p>I work at the intersection of AI filmmaking, cinematic imagery and 3D craft. From a small visual experiment to a complete commercial, I turn ideas into moving images with character.</p><p>This is my collection of AI films, motion studies and selected CGI work. Always exploring. Always making.</p><a class="outline-link" href="mailto:yokamination@gmail.com">LET’S MAKE SOMETHING ↗</a></div><aside class="letter-note"><div class="stamp">VN<br><small>BY AIR MAIL</small></div><p>Have an idea?<br>Send a little letter.</p><a href="mailto:yokamination@gmail.com">yokamination@gmail.com ↗</a></aside></section>
+<section id="library" class="library" aria-labelledby="library-title"><div class="library-heading"><div><span class="eyebrow">THE COLLECTION / A WORK IN MOTION</span><h2 id="library-title">The film library<span class="red-dot">.</span></h2></div></div><div class="library-tools"><div id="filters" class="filters" role="group" aria-label="Filter films"></div><label class="search">FIND A FILM <input id="search" type="search" placeholder="Title or type…" aria-label="Search films"></label></div><div id="subfilters" class="subfilters" role="group" aria-label="AI subjects"></div><div class="results-line"><span id="result-count" aria-live="polite"></span></div><div class="film-grid" id="film-grid"></div><nav id="pagination" class="pagination" aria-label="Film library pages"></nav><p id="empty" hidden>No films match that search. Try another title or subject.</p></section>
+
+<section id="connect" class="connect"><div class="connect-top"><span class="eyebrow">04 / SEND A LITTLE LETTER</span><button id="replay-intro">REOPEN THE ENVELOPE ↗</button></div><h2>Let’s make<br><em>something move.</em></h2><a class="contact-mail" href="mailto:yokamination@gmail.com"><small>LET’S TALK ABOUT YOUR NEXT FILM</small><strong>yokamination@gmail.com</strong><span>WRITE ME A LETTER ↗</span></a><div class="connect-bottom"><p>A new film. A wild idea. A first hello.<br>My inbox is open.</p><div id="social-links" class="social-links" aria-label="Social profiles"></div></div></section><footer><a href="#home">VIET NGUYEN <span>AI FILMS & VISUAL STORIES</span></a><a href="mailto:yokamination@gmail.com">yokamination@gmail.com ↗</a><a href="#home">BACK TO TOP ↑</a></footer></main>
+<dialog id="player-dialog" aria-labelledby="player-title"><button class="close-player" aria-label="Close video">✕</button><video id="player" controls playsinline preload="none"></video><div class="player-meta"><h2 id="player-title"></h2><p id="player-detail"></p><a id="original-link" target="_blank" rel="noopener">OPEN ORIGINAL ↗</a></div><p id="player-error" hidden>Unable to play this film. You can open the original file using the link above.</p></dialog></body></html>
